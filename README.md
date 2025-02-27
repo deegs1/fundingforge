@@ -2,6 +2,10 @@
 
 A professional website for FundingForge, a nonprofit grant consulting service that helps organizations secure funding through strategic grant solutions.
 
+## Website URL
+
+Visit our website at: https://deegs1.github.io/fundingforge/
+
 ## Website Overview
 
 This website is built using HTML, CSS, and JavaScript and is designed to be hosted on GitHub Pages. It includes the following pages:
