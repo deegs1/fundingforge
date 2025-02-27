@@ -1,0 +1,16 @@
+This directory is for image files.
+
+Please add the following images:
+- company-image.jpg - An image representing FundingForge (recommended size: 600x400px)
+- founder-image.jpg - An image of the founder (recommended size: 600x400px)
+- favicon.png - A small icon for the browser tab, ideally a simplified version of the FundingForge logo featuring the flame/ember symbol (recommended size: 32x32px)
+
+Brand Style Guide Notes:
+- The FundingForge logo features a minimalist flame or ember symbol
+- The flame is designed with clean, geometric lines rather than intricate details
+- Primary colors are Forge Black (#1A1A1A), Ember Red (#D64045), and Steel Gray (#505050)
+- Secondary colors are Paper White (#F5F5F5) and Spark Gold (#FFC145)
+
+You can also add a logo image if desired.
+
+Note: The website is currently set up to work without these images, displaying placeholder backgrounds instead. 
