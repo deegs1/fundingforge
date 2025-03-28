@@ -35,6 +35,8 @@ The website consists of three main pages:
 - Adjusted header and footer styling to accommodate logo
 - Increased logo size from 30px to 50px
 - Updated the footer tagline to "Forging Impact"
+- Removed Grant Readiness Accelerator service and associated content from services.html
+- Removed Grant Readiness Accelerator feature card from index.html homepage
 
 ## Future Improvements
 - Add missing images for about.html (company-image.jpg, founder-image.jpg)
