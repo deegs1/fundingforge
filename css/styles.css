@@ -769,4 +769,77 @@ footer {
         display: block;
         padding: 0.8rem;
     }
+}
+
+/* Phase Table Styles */
+.project-timeline {
+    margin: 2rem 0;
+    overflow-x: auto;
+}
+
+.phase-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    border-radius: 8px;
+}
+
+.phase-table th,
+.phase-table td {
+    padding: 1.5rem;
+    border: 1px solid var(--light-gray);
+    vertical-align: top;
+}
+
+.phase-table th {
+    background-color: var(--primary-color);
+    color: white;
+    font-family: var(--font-primary);
+    font-weight: 600;
+    text-align: left;
+}
+
+.phase-table td.label {
+    font-weight: 600;
+    background-color: var(--light-color);
+    width: 120px;
+}
+
+.phase-table .phase-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.phase-table .phase-list li {
+    margin-bottom: 0.8rem;
+    line-height: 1.4;
+    position: relative;
+    padding-left: 1.2rem;
+}
+
+.phase-table .phase-list li:before {
+    content: "•";
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+}
+
+.phase-table ul ul {
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .project-timeline {
+        margin: 1rem -1.5rem;
+    }
+    
+    .phase-table th,
+    .phase-table td {
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
 } 
