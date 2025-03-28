@@ -771,75 +771,90 @@ footer {
     }
 }
 
-/* Phase Table Styles */
-.project-timeline {
-    margin: 2rem 0;
-    overflow-x: auto;
+/* Phase Cards Styles */
+.phases-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin: 2.5rem 0;
 }
 
-.phase-table {
-    width: 100%;
-    border-collapse: collapse;
+.phase-card {
     background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
     box-shadow: var(--box-shadow);
-    border-radius: 8px;
-}
-
-.phase-table th,
-.phase-table td {
-    padding: 1.5rem;
+    transition: var(--transition);
+    position: relative;
     border: 1px solid var(--light-gray);
-    vertical-align: top;
 }
 
-.phase-table th {
+.phase-card:hover {
+    transform: translateY(-5px);
+}
+
+.phase-icon {
+    width: 60px;
+    height: 60px;
     background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.phase-icon i {
+    font-size: 1.8rem;
     color: white;
-    font-family: var(--font-primary);
-    font-weight: 600;
-    text-align: left;
 }
 
-.phase-table td.label {
-    font-weight: 600;
-    background-color: var(--light-color);
-    width: 120px;
+.phase-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--dark-color);
 }
 
-.phase-table .phase-list {
+.phase-duration {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.phase-features {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.phase-table .phase-list li {
-    margin-bottom: 0.8rem;
-    line-height: 1.4;
+.phase-features li {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
     position: relative;
-    padding-left: 1.2rem;
+    line-height: 1.4;
 }
 
-.phase-table .phase-list li:before {
-    content: "•";
+.phase-features li:before {
+    content: "→";
     color: var(--primary-color);
     position: absolute;
     left: 0;
+    font-weight: bold;
 }
 
-.phase-table ul ul {
-    margin-top: 0.8rem;
-    margin-left: 1rem;
+.phase-features li:last-child {
+    margin-bottom: 0;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
-    .project-timeline {
-        margin: 1rem -1.5rem;
+    .phases-grid {
+        grid-template-columns: 1fr;
     }
     
-    .phase-table th,
-    .phase-table td {
-        padding: 1rem;
-        font-size: 0.9rem;
+    .phase-card {
+        padding: 1.5rem;
     }
 } 
