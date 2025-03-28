@@ -40,6 +40,8 @@ The website consists of three main pages:
 - Renamed "Strategic Funding Blueprint" to "12 Month Funding Roadmap" across all pages
 - Updated service description to emphasize strategic alignment with organizational goals
 - Added new features including strategy sessions and flexible check-in options
+- Added new "Grant Research & Strategy" service with monthly deliverables and bi-monthly meetings
+- Created feature card for Grant Research & Strategy on homepage
 
 ## Future Improvements
 - Add missing images for about.html (company-image.jpg, founder-image.jpg)
