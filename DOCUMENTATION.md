@@ -37,6 +37,9 @@ The website consists of three main pages:
 - Updated the footer tagline to "Forging Impact"
 - Removed Grant Readiness Accelerator service and associated content from services.html
 - Removed Grant Readiness Accelerator feature card from index.html homepage
+- Renamed "Strategic Funding Blueprint" to "12 Month Funding Roadmap" across all pages
+- Updated service description to emphasize strategic alignment with organizational goals
+- Added new features including strategy sessions and flexible check-in options
 
 ## Future Improvements
 - Add missing images for about.html (company-image.jpg, founder-image.jpg)
