@@ -45,6 +45,7 @@ The website consists of three main pages:
 - Replaced "Focused Grant Writing Retainer" with "Complete Grant Startup Package"
 - Added three-phase implementation structure for the startup package
 - Updated feature cards to reflect current service offerings
+- Improved feature card layout by aligning "Learn More" buttons at the bottom using flexbox
 
 ## Future Improvements
 - Add missing images for about.html (company-image.jpg, founder-image.jpg)
