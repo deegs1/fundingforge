@@ -46,6 +46,11 @@ The website consists of three main pages:
 - Added three-phase implementation structure for the startup package
 - Updated feature cards to reflect current service offerings
 - Improved feature card layout by aligning "Learn More" buttons at the bottom using flexbox
+- Revised About page content to focus on common nonprofit funding questions
+- Restructured Our Story section to emphasize universal grant writing challenges
+- Updated Mission and Vision statements to align with question-based narrative
+- Refined founder bio to connect personal experience with nonprofit challenges
+- Streamlined copy throughout About page for more sophisticated, reflective tone
 
 ## Future Improvements
 - Add missing images for about.html (company-image.jpg, founder-image.jpg)
