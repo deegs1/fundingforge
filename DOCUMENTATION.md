@@ -51,6 +51,10 @@ The website consists of three main pages:
 - Updated Mission and Vision statements to align with question-based narrative
 - Refined founder bio to connect personal experience with nonprofit challenges
 - Streamlined copy throughout About page for more sophisticated, reflective tone
+- Fixed core values grid layout in About page using CSS Grid
+  - Implemented 6-column grid system for even card distribution
+  - Positioned cards to create symmetrical 3-2 layout
+  - Maintained responsive design for mobile viewing
 
 ## Future Improvements
 - Add missing images for about.html (company-image.jpg, founder-image.jpg)
