@@ -115,15 +115,12 @@ img {
 }
 
 .placeholder-image {
-    background-color: var(--light-gray);
     width: 100%;
-    height: 100%;
-    min-height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--gray-color);
-    font-style: italic;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
 }
 
 /* ===== HEADER ===== */
