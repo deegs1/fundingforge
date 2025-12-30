@@ -1147,4 +1147,119 @@ footer {
     .phase-section {
         padding: 1.5rem;
     }
+}
+
+/* ===== SCROLL ANIMATIONS ===== */
+
+/* Base state for animated elements - hidden before scroll trigger */
+.animate {
+    opacity: 0;
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Fade up animation */
+.animate-fade-up {
+    transform: translateY(40px);
+}
+
+/* Fade in animation (no movement) */
+.animate-fade-in {
+    transform: translateY(0);
+}
+
+/* Slide from left */
+.animate-slide-left {
+    transform: translateX(-40px);
+}
+
+/* Slide from right */
+.animate-slide-right {
+    transform: translateX(40px);
+}
+
+/* Scale up animation */
+.animate-scale {
+    transform: scale(0.9);
+}
+
+/* Revealed state - when element enters viewport */
+.animate.is-visible {
+    opacity: 1;
+    transform: translateY(0) translateX(0) scale(1);
+}
+
+/* Stagger delays for grid items */
+.animate-stagger-1 { transition-delay: 0.1s; }
+.animate-stagger-2 { transition-delay: 0.2s; }
+.animate-stagger-3 { transition-delay: 0.3s; }
+.animate-stagger-4 { transition-delay: 0.4s; }
+.animate-stagger-5 { transition-delay: 0.48s; }
+
+/* Counter animation styles */
+.counter {
+    display: inline-block;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Form success animation */
+.form-success {
+    text-align: center;
+    padding: 2rem;
+    animation: fadeInSuccess 0.5s ease-out;
+}
+
+.form-success i {
+    font-size: 3rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.form-success h3 {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.form-success p {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0;
+}
+
+@keyframes fadeInSuccess {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Accessibility: Disable animations for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .animate {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+
+    .animate-fade-up,
+    .animate-fade-in,
+    .animate-slide-left,
+    .animate-slide-right,
+    .animate-scale {
+        transform: none;
+    }
+
+    .animate-stagger-1,
+    .animate-stagger-2,
+    .animate-stagger-3,
+    .animate-stagger-4,
+    .animate-stagger-5 {
+        transition-delay: 0s;
+    }
+
+    .form-success {
+        animation: none;
+    }
 } 
